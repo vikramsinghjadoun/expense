@@ -1,0 +1,135 @@
+/* stylesheet */
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+#temp{
+  padding: 20px;
+  background-color: rgba(202, 15, 15, 0.726);
+  color: white;
+  font-size: 1.2em;
+  border:solid 1px;
+  border-radius: 20px;
+}
+.search{
+  background-color:rgba(202, 15, 15, 0.726);
+  border-radius: 4px;
+  text-align: center;
+  color:whitesmoke;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.search input[type=search]{
+  border:none;
+  height:28px;
+  width:35%;
+  background-color:rgba(202, 15, 15, 0);;
+  font-size: 15px;
+  border-bottom: solid #999;
+}
+.search h1{
+  padding-bottom:12px;
+}
+.search .fas{
+  font-size:30px;
+  color:rgba(12, 62, 168, 0.63);
+}
+.wrapper{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgba(225,225,225,0.5);
+  height:200px;
+  display:grid;
+  grid-template-columns:2fr 1fr 2fr
+}
+/* header */
+.header{
+  font-size:25px;
+  background-color: rgba(100,22,100,0.3);
+  color:rgba(155, 91, 91, 0.877);
+  text-align: center;
+  grid-column: 1/2;
+}
+.totalAmount input[type=number]{
+  margin-top:42px;
+  padding-bottom:12px;
+  width:50%;
+  height:35px;
+  font-size:20px;
+  border:none;
+  border-bottom: solid chocolate;
+  background-color: rgba(100,22,100,0);
+  border-radius: 3%;
+}
+/* center */
+.center{
+  grid-column: 2;
+}
+.center p{
+  font-size:22px;
+  font-weight:15;
+  color:#555;
+  text-align: center;
+  padding-top:3.2rem;
+  padding-bottom:10px;
+}
+.center input[type=number]{
+  margin-top:7%;
+  height:35px;
+  font-size:16px;
+  width:100%;
+  border:none;
+  background-color:whitesmoke;
+  border-bottom:solid #999;
+  
+}
+.center button{
+  width:55%;
+  height:40px;
+  position: relative;
+  left:25%;
+  top:20%;
+  font-size:0.9rem;
+  border:none;
+  border-radius: 5px;
+  background-color:rgba(182, 82, 16, 0.456);
+}
+.center button .fas{
+  color:rgba(207, 71, 47, 0.904);
+  font-size:25px;
+}
+.center button:hover{
+  background-color:rgba(207, 71, 47, 0.704);
+}
+/* container */
+.container{
+  position:relative;
+  text-align: center;
+  grid-column: 3/4;
+  background-color: rgba(41, 71, 134, 0.3);
+}
+.container h1{
+  color:rgba(11, 8, 173, 0.359);
+}
+.container input[type=number]{
+  width:50%;
+  height:45px;
+  font-size:20px;
+  margin-top: 35px;
+  background-color: rgba(41, 71, 134, 0);
+  border:none;
+  border-bottom:solid chocolate;
+}
+@media(min-width:324px) and (max-width:600px)
+{
+  .wrapper{
+    display: block; 
+  }
+  .wrapper div{
+    margin-bottom: 20px;
+  }
+  .header{
+  }
+}

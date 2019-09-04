@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BudgetProject</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+    <div class="search">
+        <h1>Check Income</h1>
+        <input type="search" placeholder="Search">&nbsp;<i class="fas fa-search-dollar"></i>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <h2 id="heading">Budget <i class="fas fa-dollar-sign"></i></h2>
+            <div class="totalAmount">
+                <input type="number" placeholder="00 rs" id="totalAmount">
+            </div>
+        </div>
+        <div class="center">
+            <button onclick="change()" type="button" value="Add" id="Add"><i class="fas fa-money-bill"></i> &nbsp; Add</button>
+            <p>Add Income in Budget</p>
+            <input type="number" placeholder="Income-Added" id="income">
+        </div>
+       
+        <div class="container">
+        <h1>Income <i class="fas fa-id-card"></i></h1>
+            <input type="number" name="amount" placeholder="Amount" id="amount"><br>
+        </div>
+        <div class="ouput" id="output">
+        
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./js/main.js"></script>
